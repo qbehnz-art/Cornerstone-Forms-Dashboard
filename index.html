@@ -183,5 +183,6 @@ function clearPasscode(){ state.locked=false; saveNow(); alert('Passcode lock re
 function unlockApp(){ const pass=document.getElementById('unlockPass').value; if(pass) document.getElementById('lockScreen').classList.add('hidden'); else alert('Enter passcode.'); }
 window.addEventListener('beforeunload', saveNow); load();
 </script>
+<!-- redeploy -->
 </body>
 </html>
